@@ -1,8 +1,6 @@
 # StandUp4AI: A Multilingual Dataset for Humor Detection in Stand-up Comedy
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-
-This repository contains the code and dataset for our EMNLP 2025 submission: **"StandUp4AI: A New Multilingual Dataset for Humor Detection in Stand-up Comedy Videos"**.
+This repository contains the code and dataset for our EMNLP 2025 submission: **"StandUp4AI: A New Multilingual Dataset for Humor Detection in Stand-up Comedy Videos"**. 
 
 ## 📊 Dataset Overview
 
@@ -13,11 +11,11 @@ StandUp4AI is the largest and most linguistically diverse multilingual dataset o
 - **130,000+ laughter labels**
 
 ### Languages Covered
-- 🇬🇧 English (Comedy Central US/UK)
+- 🇬🇧🇺🇸 English (Comedy Central US/UK)
 - 🇫🇷 French (Montreux Comedy)
-- 🇪🇸 Spanish (Comedy Central Latam/España)
+- 🇪🇸🇦🇷🇨🇱🇲🇽🇨🇴 Spanish (Comedy Central Latam/España)
 - 🇮🇹 Italian (Comedy Central Italia)
-- 🇵🇹 Portuguese (Comedy Central Brasil)
+- 🇧🇷 Portuguese (Comedy Central Brasil)
 - 🇭🇺 Hungarian (Comedy Central Magyarország)
 - 🇨🇿 Czech (Paramount Network CZ)
 
@@ -236,17 +234,11 @@ If you use this dataset in your research, please cite:
 ```bibtex
 @inproceedings{standup4ai2025,
   title={StandUp4AI: A New Multilingual Dataset for Humor Detection in Stand-up Comedy Videos},
-  author={Anonymous},
-  booktitle={EMNLP 2025 Submission},
+  author={Barriere, Valentin and Gomez, Nahuel and Hemamou, Leo and Callejas, Sofia and Ravenet, Brian},
+  booktitle={Findings of ACL: EMNLP 2025},
   year={2025}
 }
 ```
-
-## 🔗 Links
-
-- **Paper**: EMNLP 2025 Submission
-- **Dataset**: Available on demand (research purposes only)
-
 
 ## ⚠️ Ethical Considerations
 
@@ -257,8 +249,8 @@ If you use this dataset in your research, please cite:
 
 ## 📧 Contact
 
-For questions or issues, please open a GitHub issue or contact the authors through the EMNLP submission system.
+* For questions, issues, please open a GitHub issue or contact the corresponding author: `vbarriere@dcc.uchile.cl`. Dataset available on demand (research purposes only). This mail can be used to handle data removal requests. 
 
 ---
 
-**Note**: This repository is under active development. Features and documentation may be updated as we prepare for the final EMNLP 2025 submission.
+**Note**: This repository is under active development. Features and documentation may be updated as we prepare a newer version of the dataset with more diversity.
